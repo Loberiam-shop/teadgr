@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loberiam Shop - Sua melhor experiência de compra online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <p>Frete grátis para compras acima de R$ 199,90 - Aproveite! | 10% OFF na primeira compra com o cupom: BEMVINDO10</p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="Loberiam Shop" class="logo">
+                    <span class="site-name">Loberiam Shop</span>
+                </a>
+            </div>
+            
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="O que você está procurando?">
+                <button class="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            
+            <div class="user-actions">
+                <a href="minha-conta.html" class="user-action">
+                    <i class="fas fa-user"></i>
+                    <span>Minha Conta</span>
+                </a>
+                <a href="favoritos.html" class="user-action">
+                    <i class="fas fa-heart"></i>
+                    <span>Favoritos</span>
+                </a>
+                <a href="carrinho.html" class="user-action">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Carrinho</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav-main">
+        <div class="container nav-container">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="categorias.html" class="nav-link">Categorias</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ofertas.html" class="nav-link">Ofertas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="lancamentos.html" class="nav-link">Lançamentos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="mais-vendidos.html" class="nav-link">Mais Vendidos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="quem-somos.html" class="nav-link">Quem Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contato.html" class="nav-link">Contato</a>
+                </li>
+            </ul>
+            <a href="super-ofertas.html" class="super-offers">SUPER OFERTAS</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1 class="hero-title">Ofertas Imperdíveis</h1>
+            <p class="hero-subtitle">Até 50% de desconto em produtos selecionados</p>
+            <a href="ofertas.html" class="btn">Ver Ofertas</a>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Categorias em Destaque</h2>
+                <a href="categorias.html" class="view-all">Ver todas</a>
+            </div>
+            <div class="categories-grid">
+                <a href="categorias/eletronicos.html" class="category-card">
+                    <div class="category-image">
+                        <img src="assets/images/categories/eletronicos.jpg" alt="Eletrônicos">
+                    </div>
+                    <div class="category-name">Eletrônicos</div>
+                </a>
+                <a href="categorias/moda.html" class="category-card">
+                    <div class="category-image">
+                        <img src="assets/images/categories/moda.jpg" alt="Moda">
+                    </div>
+                    <div class="category-name">Moda</div>
+                </a>
+                <a href="categorias/casa-decoracao.html" class="category-card">
+                    <div class="category-image">
+                        <img src="assets/images/categories/casa-decoracao.jpg" alt="Casa e Decoração">
+                    </div>
+                    <div class="category-name">Casa e Decoração</div>
+                </a>
+                <a href="categorias/esportes.html" class="category-card">
+                    <div class="category-image">
+                        <img src="assets/images/categories/esportes.jpg" alt="Esportes">
+                    </div>
+                    <div class="category-name">Esportes</div>
+                </a>
+                <a href="categorias/beleza-saude.html" class="category-card">
+                    <div class="category-image">
+                        <img src="assets/images/categories/beleza-saude.jpg" alt="Beleza e Saúde">
+                    </div>
+                    <div class="category-name">Beleza e Saúde</div>
+                </a>
+                <a href="categorias/infantil.html" class="category-card">
+                    <div class="category-image">
+                        <img src="assets/images/categories/infantil.jpg" alt="Infantil">
+                    </div>
+                    <div class="category-name">Infantil</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section - Offers -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ofertas em Destaque</h2>
+                <a href="ofertas.html" class="view-all">Ver todas</a>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">-20%</span>
+                        <img src="assets/images/products/smartphone.jpg" alt="Smartphone Avançado">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Eletrônicos</div>
+                        <h3 class="product-title">Smartphone Avançado com Câmera Profissional</h3>
+                        <div class="product-rating">
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="rating-count">(128)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">R$ 2.499,90</span>
+                            <span class="current-price">R$ 1.999,90</span>
+                        </div>
+                        <div class="product-action">
+                            <a href="produtos/smartphone-avancado.html" class="btn">Ver Produto</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">-15%</span>
+                        <img src="assets/images/products/notebook.jpg" alt="Notebook Ultrafino">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Eletrônicos</div>
+                        <h3 class="product-title">Notebook Ultrafino com Processador de Alta Performance</h3>
+                        <div class="product-rating">
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span class="rating-count">(95)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">R$ 4.699,90</span>
+                            <span class="current-price">R$ 3.999,90</span>
+                        </div>
+                        <div class="product-action">
+                            <a href="produtos/notebook-ultrafino.html" class="btn">Ver Produto</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">-30%</span>
+                        <img src="assets/images/products/fone.jpg" alt="Fone de Ouvido Bluetooth">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Eletrônicos</div>
+                        <h3 class="product-title">Fone de Ouvido Bluetooth com Cancelamento de Ruído</h3>
+                        <div class="product-rating">
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-count">(210)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">R$ 599,90</span>
+                            <span class="current-price">R$ 419,90</span>
+                        </div>
+                        <div class="product-action">
+                            <a href="produtos/fone-bluetooth.html" class="btn">Ver Produto</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">-25%</span>
+                        <img src="assets/images/products/smartwatch.jpg" alt="Smartwatch Esportivo">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Eletrônicos</div>
+                        <h3 class="product-title">Smartwatch Esportivo com Monitor Cardíaco</h3>
+                        <div class="product-rating">
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span class="rating-count">(87)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">R$ 899,90</span>
+                            <span class="current-price">R$ 674,90</span>
+                        </div>
+                        <div class="product-action">
+                            <a href="produtos/smartwatch-esportivo.html" class="btn">Ver Produto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section - New -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Novidades</h2>
+                <a href="lancamentos.html" class="view-all">Ver todas</a>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">Novo</span>
+                        <img src="assets/images/products/camera.jpg" alt="Câmera Digital Profissional">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Eletrônicos</div>
+                        <h3 class="product-title">Câmera Digital Profissional com Lente Intercambiável</h3>
+                        <div class="product-rating">
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="rating-count">(156)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">R$ 3.499,90</span>
+                        </div>
+                        <div class="product-action">
+                            <a href="produtos/camera-digital.html" class="btn">Ver Produto</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/images/products/tenis.jpg" alt="Tênis Esportivo">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Esportes</div>
+                        <h3 class="product-title">Tênis Esportivo para Corrida com Amortecimento</h3>
+                        <div class="product-rating">
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-count">(312)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">R$ 299,90</span>
+                        </div>
+                        <div class="product-action">
+                            <a href="produtos/tenis-esportivo.html" class="btn">Ver Produto</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/images/products/cafeteira.jpg" alt="Cafeteira Elétrica">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Casa e Decoração</div>
+                        <h3 class="product-title">Cafeteira Elétrica Programável com Moedor Integrado</h3>
+                        <div class="product-rating">
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span class="rating-count">(78)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">R$ 459,90</span>
+                        </div>
+                        <div class="product-action">
+                            <a href="produtos/cafeteira-eletrica.html" class="btn">Ver Produto</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/images/products/mochila.jpg" alt="Mochila para Notebook">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-category">Moda</div>
+                        <h3 class="product-title">Mochila para Notebook com Proteção Anti-Furto</h3>
+                        <div class="product-rating">
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="rating-count">(124)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">R$ 189,90</span>
+                        </div>
+                        <div class="product-action">
+                            <a href="produtos/mochila-notebook.html" class="btn">Ver Produto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3 class="feature-title">Frete Grátis</h3>
+                    <p class="feature-description">Para compras acima de R$ 199,90</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Compra Segura</h3>
+                    <p class="feature-description">Seus dados sempre protegidos</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Troca Fácil</h3>
+                    <p class="feature-description">Até 7 dias para trocar</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3 class="feature-title">Até 12x sem juros</h3>
+                    <p class="feature-description">Em todos os cartões</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container newsletter-content">
+            <h2 class="newsletter-title">Receba Nossas Ofertas</h2>
+            <p class="newsletter-description">Cadastre-se para receber ofertas exclusivas e novidades em primeira mão</p>
+            <form class="newsletter-form">
+                <input type="email" class="newsletter-input" placeholder="Seu melhor e-mail">
+                <button type="submit" class="newsletter-button">Cadastrar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3 class="footer-column-title">Institucional</h3>
+                    <div class="footer-links">
+                        <a href="quem-somos.html" class="footer-link">Quem Somos</a>
+                        <a href="politicas/termos-condicoes.html" class="footer-link">Termos e Condições</a>
+                        <a href="politicas/privacidade.html" class="footer-link">Política de Privacidade</a>
+                        <a href="politicas/trocas-devolucoes.html" class="footer-link">Trocas e Devoluções</a>
+                        <a href="trabalhe-conosco.html" class="footer-link">Trabalhe Conosco</a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-column-title">Atendimento</h3>
+                    <div class="footer-links">
+                        <a href="contato.html" class="footer-link">Fale Conosco</a>
+                        <a href="central-ajuda.html" class="footer-link">Central de Ajuda</a>
+                        <a href="duvidas-frequentes.html" class="footer-link">Dúvidas Frequentes</a>
+                        <a href="acompanhe-pedido.html" class="footer-link">Acompanhe seu Pedido</a>
+                        <a href="politicas/formas-pagamento.html" class="footer-link">Formas de Pagamento</a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-column-title">Categorias</h3>
+                    <div class="footer-links">
+                        <a href="categorias/eletronicos.html" class="footer-link">Eletrônicos</a>
+                        <a href="categorias/moda.html" class="footer-link">Moda</a>
+                        <a href="categorias/casa-decoracao.html" class="footer-link">Casa e Decoração</a>
+                        <a href="categorias/esportes.html" class="footer-link">Esportes</a>
+                        <a href="categorias/beleza-saude.html" class="footer-link">Beleza e Saúde</a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-column-title">Redes Sociais</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                    
+                    <h3 class="footer-column-title" style="margin-top: 20px;">Formas de Pagamento</h3>
+                    <div class="payment-methods">
+                        <img src="assets/images/payment/visa.png" alt="Visa" class="payment-method">
+                        <img src="assets/images/payment/mastercard.png" alt="Mastercard" class="payment-method">
+                        <img src="assets/images/payment/amex.png" alt="American Express" class="payment-method">
+                        <img src="assets/images/payment/elo.png" alt="Elo" class="payment-method">
+                        <img src="assets/images/payment/boleto.png" alt="Boleto" class="payment-method">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Loberiam Shop - Todos os direitos reservados</p>
+                <div class="footer-bottom-links">
+                    <img src="assets/images/security/ssl.png" alt="Site Seguro SSL">
+                    <img src="assets/images/security/secure.png" alt="Compra Protegida">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
